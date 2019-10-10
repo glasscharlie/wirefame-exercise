@@ -1,43 +1,23 @@
-.child {
-    position: absolute;
-    top: 5px;
-    left: 0%;
-  } 
-  .child2 {
-    position: absolute;
-    top: 5px;
-    left: 20%;
-  } 
-  .child3 {
-    position: absolute;
-    top: 5px;
-    left: 60%;
-  } 
+
   .child4 {
     position: absolute;
     top: 6%;
-    left: 0%;
-    
-  } 
-  .child5 { 
-    position: absolute;
-    top: 5px;
-    left: 80%;
-  } 
+    left: 1.5%;
+  }
   .child6 {
     position: absolute;
     top: 41%;
-    left: 66%;
+    left: 68%;
   } 
   .child7 {
     position: absolute;
     top: 41%;
-    left: 33%;
+    left: 35%;
   }
   .child8 {
     position: absolute;
     top: 41%;
-    left: 00%;
+    left: 1.5%;
   } 
   .child9 {
     position: absolute;
@@ -45,17 +25,37 @@
     left: 0%;
   } 
   .child10 {
+      
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
+    overflow: scroll;
+    width: 480px;
+    height:400px;
     position: absolute;
     bottom: 0%;
     right: 0%;
   } 
-  .child11 {
-    position: absolute;
-    top: 5px;
-    right: 40%;
-  } 
+
+  .topnav {
+    background-color: gray;
+    width:960px;
+    height: 55px;
+    text-align: center;
+  font-size: 40px;
+  position:absolute;
+  top:0px;
+  }
+    
+  .topnav a{
+      margin: 16px;
+  }
+  .topnav a:hover {
+    background-color: #555;
+    color: red;
+  }
   
-  
+
   .parent {
     background: lightblue;
     height: 1300px;
@@ -63,9 +63,3 @@
     padding: 1em;
     position: relative;
     }
-
-    /* body {
-        width: 960px;
-        height:1300px;
-         position: relative;
-    } */
